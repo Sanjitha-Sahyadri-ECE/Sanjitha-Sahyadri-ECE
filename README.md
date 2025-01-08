@@ -1,16 +1,49 @@
-## Hi there 👋
+# RISC-V Talent development program
 
-<!--
-**Sanjitha-Sahyadri-ECE/Sanjitha-Sahyadri-ECE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+the project is based on the RISC V talent development program.
 
-Here are some ideas to get you started:
+<details>
+  <summary> task 0- installation</summary>
+</details>
+<details>
+  <summary>
+    task 1 -Development of c program
+  </summary>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  ### step 1: fire up the terminal 
+  ```bash 
+  vsduser@vsduser-VirtualBox:~$
+  ```
+
+  ### step 2: direction to home bash
+  ```bash
+  cd
+  ```
+
+  ### step 3: open leafpad bash
+  ```bash
+  leafpad sum1ton.c &
+  ```
+
+  ### step 4: write the code
+  ```c
+  #include<stdio.h>
+  int main(){
+    int sum = 0, n = 80, i;
+    for(i=0; i<=n; i++){
+        sum+=i;
+        printf("The sum from 1 to 80: %d \n", sum);
+    }
+    return 0;
+}
+  ```
+
+  ### step 5: compile and run the code
+  ```bash
+  gcc sum1ton.c
+  ./a.out
+  ```
+
+
+  
+</details>
